@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/AVVS/skiff-dispatcher/issues"
   },
-  "homepage": "https://github.com/AVVS/skiff-dispatcher#readme"
+  "homepage": "https://github.com/AVVS/skiff-dispatcher#readme",
+  "dependencies": {
+    "lodash": "^3.8.0",
+    "propagate": "^0.3.1",
+    "skiff-redis": "^0.3.1",
+    "skiff-transport-json": "^1.0.0",
+    "sombrero-gossip": "^0.8.1"
+  }
 }

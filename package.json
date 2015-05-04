@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/AVVS/skiff-dispatcher#readme",
   "dependencies": {
+    "callback-queue": "^1.1.1",
     "lodash": "^3.8.0",
     "propagate": "^0.3.1",
     "skiff-redis": "^0.3.1",

@@ -1,0 +1,27 @@
+{
+  "name": "skiff-dispatcher",
+  "version": "0.1.0",
+  "description": "Uses skiff-redis and sombrero-gossip to distribute tasks between cluster peers",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVVS/skiff-dispatcher.git"
+  },
+  "keywords": [
+    "skiff",
+    "redis",
+    "task",
+    "dispatcher",
+    "distributed",
+    "raft"
+  ],
+  "author": "Vitaly Aminev <v@aminev.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AVVS/skiff-dispatcher/issues"
+  },
+  "homepage": "https://github.com/AVVS/skiff-dispatcher#readme"
+}

@@ -1,6 +1,6 @@
 {
   "name": "skiff-dispatcher",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Uses skiff-redis and sombrero-gossip to distribute tasks between cluster peers",
   "main": "./lib/index.js",
   "scripts": {

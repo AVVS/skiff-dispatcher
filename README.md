@@ -19,14 +19,9 @@ that is eventually synced.
 var Dispatcher = require('skiff-dispatcher');
 var _ = require('lodash');
 
-// overwrite this with methods that can be called with the getsetnx, del and update
-_.extend(Dispatcher.prototype._allowedRemoteCalls, {
-    'methodName': true,
-    'methodName2': true
-});
 
-Dispatcher.prototype.methodName = function (resourceId, resourceType, arg1, arg2, ..., next) {
-    // do something here
-};
+Dispatcher.attachRemoteCall('methodName', function rpcEnabledCall(resourceId, resourceType, arg1, arg2, ..., next) {
+    // func
+});
 
 ```
